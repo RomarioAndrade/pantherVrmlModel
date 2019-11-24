@@ -1,0 +1,21 @@
+#VRML V2.0 utf8
+
+Background{
+    skyColor [0 0 0 ]
+    frontUrl [ "ceu.jpg"]
+    backUrl [ "ceu.jpg"]
+    leftUrl [ "ceu.jpg"]
+    rightUrl [ "ceu.jpg"]
+    topUrl [ "ceu.jpg"]
+    bottomUrl [ "ceu.jpg"]
+}
+
+Transform {
+    translation 0 0 0
+    rotation 0 0 0 0
+    children [
+        Inline{
+            url ["aula 0611.wrl"]
+        } 
+    ]
+}
